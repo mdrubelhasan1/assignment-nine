@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className='grid grid-cols-3  p-4 justify-between justify-items-center bg-green-500'>
             <div>
-                <Link className='text-white pl-20 align-middle' to='/'>JobPortal</Link>
+                <Link className='text-white text-2xl font-bold align-middle' to='/'>JobPortal</Link>
             </div>
             <div className='text-center'>
                 <Link className='text-white mr-12 ml-0 hover:bg-green-700 p-2 rounded align-middle' to='/'>Home</Link>

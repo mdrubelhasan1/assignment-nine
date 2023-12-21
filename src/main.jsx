@@ -10,6 +10,7 @@ import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
 import AppliedJobs from './components/ApplyedJobs/AppliedJobs.jsx';
 import Blog from './components/Blog/Blog.jsx';
+import Header from './components/Header/Header.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
     element: <Home></Home>,
     errorElement: <ErrorPage></ErrorPage>,
     children:[
+      {
+        path: '/',
+        element: <Header></Header>,
+        loader: ()=> fetch('header.json')
+      },
       
       {
         path: 'statistics',
