@@ -25,7 +25,7 @@ const AvilableJob = () => {
                 }
             </div>
             <div className='text-center'>
-                <button className='bg-indigo-500 text-white p-4 rounded mt-2'>
+                <button className='bg-indigo-500 text-white p-4 rounded mt-2 mb-10'>
                     See All</button>
 
             </div>

@@ -11,11 +11,11 @@ const Job = (props) => {
                 <h3 className='text-2xl	font-extrabold'>{job_title}</h3>
                 <p>{company_name}</p>
                 <p>{fulltime_or_parttime}</p>
-               <div className='flex gap-4'>
-               <p>{location}</p> 
-                <p>{salary}</p>
-               </div>
-               <button className='bg-indigo-500 text-white p-2 rounded mt-2'>View Details</button>
+                <div className='flex gap-4'>
+                    <p>{location}</p>
+                    <p>{salary}</p>
+                </div>
+                <button className='bg-indigo-500 text-white p-2 rounded mt-2'>View Details</button>
             </div>
         </div>
     );

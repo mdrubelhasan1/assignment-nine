@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Body from '../Body/Body';
 import AvilableJob from '../AvilableJob/AvilableJob';
+import Footer from '../Footer/Footer';
 
 
 const Header = () => {
@@ -24,6 +25,7 @@ const Header = () => {
             <Body></Body>
             {/* Fatured job section */}
             <AvilableJob></AvilableJob>
+            <Footer></Footer>
         </div>
     );
 };
