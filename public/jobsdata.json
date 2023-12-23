@@ -1,0 +1,113 @@
+
+[
+      {
+        "id": 1,
+        "company_logo": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png",
+        "job_title": "Software Engineer",
+        "company_name": "Google LLC.",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are looking for a skilled software engineer...",
+        "job_responsibility": "Design and implement software solutions...",
+        "educational_requirements": "Bachelor's degree in Computer Science...",
+        "experiences": "2+ years of relevant experience...",
+        "contact_information": {
+          "phone": "123-456-7890",
+          "email": "jobs@techsolutions.com"
+        }
+      },
+      {
+        "id": 2,
+        "company_logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+        "job_title": "Marketing Specialist",
+        "company_name": "Tesla Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$50,000 - $60,000",
+        "job_description": "Join our dynamic marketing team...",
+        "job_responsibility": "Create and implement marketing strategies...",
+        "educational_requirements": "Bachelor's degree in Marketing or related field...",
+        "experiences": "1+ years of marketing experience...",
+        "contact_information": {
+          "phone": "555-123-4567",
+          "email": "careers@globalmarketing.com"
+        }
+      },
+      {
+        "id": 3,
+        "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcGP-hZph0fqAx3g4Soh1JbF7RfuZzITm0nu0M8yM&usqp=CAE&s",
+        "job_title": "Graphic Designer",
+        "company_name": "Netflix Limited",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$60,000 - $70,000",
+        "job_description": "We are seeking a talented graphic designer...",
+        "job_responsibility": "Create visually appealing designs...",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field...",
+        "experiences": "3+ years of graphic design experience...",
+        "contact_information": {
+          "phone": "987-654-3210",
+          "email": "designjobs@creativedesigns.com"
+        }
+      },
+      {
+        "id": 4,
+        "company_logo": "https://upload.wikimedia.org/wikipedia/en/3/3b/Walton_Group.svg",
+        "job_title": "Data Scientist",
+        "company_name": "Walton Group",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$90,000 - $110,000",
+        "job_description": "Exciting opportunity for a data scientist...",
+        "job_responsibility": "Analyze and interpret complex data sets...",
+        "educational_requirements": "Master's or Ph.D. in Data Science or related field...",
+        "experiences": "5+ years of experience in data science...",
+        "contact_information": {
+          "phone": "111-222-3333",
+          "email": "datajobs@datainsights.com"
+        }
+      },
+      {
+        "id": 5,
+        "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9C7PzDyH0O5LZ_qr_8CzQ543oQa47IJudx9DNFV8&usqp=CAE&s",
+        "job_title": "Customer Support Representative",
+        "company_name": "ACI Ltd.",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$30,000 - $40,000",
+        "job_description": "Join our customer support team...",
+        "job_responsibility": "Assist customers with product-related inquiries...",
+        "educational_requirements": "High school diploma or equivalent...",
+        "experiences": "1+ years of customer support experience...",
+        "contact_information": {
+          "phone": "800-555-1234",
+          "email": "support@servicesolutions.com"
+        }
+      },
+      {
+        "id": 6,
+        "company_logo": "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2021/05/05/square_pharma.jpg",
+        "job_title": "Financial Analyst",
+        "company_name": "Square Group",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$70,000 - $80,000",
+        "job_description": "Seeking a skilled financial analyst...",
+        "job_responsibility": "Conduct financial analysis and reporting...",
+        "educational_requirements": "Bachelor's degree in Finance or related field...",
+        "experiences": "2+ years of financial analysis experience...",
+        "contact_information": {
+          "phone": "312-555-7890",
+          "email": "financejobs@financeexperts.com"
+        }
+      }
+]
+  
+  

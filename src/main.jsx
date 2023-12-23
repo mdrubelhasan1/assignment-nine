@@ -11,6 +11,7 @@ import Statistics from './components/Statistics/Statistics.jsx';
 import AppliedJobs from './components/ApplyedJobs/AppliedJobs.jsx';
 import Blog from './components/Blog/Blog.jsx';
 import Header from './components/Header/Header.jsx';
+import AvilableJob from './components/AvilableJob/AvilableJob.jsx';
 
 const router = createBrowserRouter([
   {

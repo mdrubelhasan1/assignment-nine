@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faShoppingCart, faTrashAlt } from '@fortawesome/free-solid-svg-icons'
+import Body from '../Body/Body';
+import AvilableJob from '../AvilableJob/AvilableJob';
 
 
 const Header = () => {
@@ -21,6 +21,9 @@ const Header = () => {
                 </div>
             </div>
             {/* Body-section */}
+            <Body></Body>
+            {/* Fatured job section */}
+            <AvilableJob></AvilableJob>
         </div>
     );
 };
