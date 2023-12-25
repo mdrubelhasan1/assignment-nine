@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Job from '../Job/Job';
+import JobsDetailsPage from '../JobsDetailsPage/JobsDetailsPage';
+import { Link } from 'react-router-dom';
 
 const AvilableJob = () => {
     const [jobs, setJobs] = useState([]);
@@ -21,7 +23,9 @@ const AvilableJob = () => {
                     jobs.map(job => <Job
                         key={job.id}
                         job={job}
-                    ></Job>)
+                    >
+                         
+                    </Job>)
                 }
             </div>
             <div className='text-center'>
@@ -29,6 +33,7 @@ const AvilableJob = () => {
                     See All</button>
 
             </div>
+            
         </div>
     );
 };

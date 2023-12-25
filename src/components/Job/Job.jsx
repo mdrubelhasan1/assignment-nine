@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Job = (props) => {
-    console.log(props)
-    const { company_logo, company_name, contact_information, educational_requirements, experiences, fulltime_or_parttime, job_description, job_responsibility, job_title, location, remote_or_onsite, salary } = props.job;
+    // console.log(props)
+    const { id, company_logo, company_name, contact_information, educational_requirements, experiences, fulltime_or_parttime, job_description, job_responsibility, job_title, location, remote_or_onsite, salary } = props.job;
     console.log(salary);
     return (
         <div className='border-2 rounded-md ml-20 bg-slate-50'>
@@ -15,8 +17,11 @@ const Job = (props) => {
                     <p>{location}</p>
                     <p>{salary}</p>
                 </div>
-                <button className='bg-indigo-500 text-white p-2 rounded mt-2'>View Details</button>
+                <Link to={`jobdetails/${id}`}>
+                    <button className='bg-indigo-500 text-white p-2 rounded mt-2'>View Details</button>
+                </Link>
             </div>
+
         </div>
     );
 };

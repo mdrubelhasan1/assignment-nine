@@ -12,6 +12,7 @@ import AppliedJobs from './components/ApplyedJobs/AppliedJobs.jsx';
 import Blog from './components/Blog/Blog.jsx';
 import Header from './components/Header/Header.jsx';
 import AvilableJob from './components/AvilableJob/AvilableJob.jsx';
+import JobsDetailsPage from './components/JobsDetailsPage/JobsDetailsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/jobdetails/:id',
+        element: <JobsDetailsPage></JobsDetailsPage>,
+        loader: ()=> fetch('/jobsdata.json')
       }
     ]
   }
