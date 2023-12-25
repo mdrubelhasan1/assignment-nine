@@ -16,35 +16,32 @@ const Footer = () => {
                         <div><FontAwesomeIcon icon={faSquareInstagram} /></div>
                     </div>
                 </div>
-                <div>
-                    <h1>Companey</h1>
-                    <p>About Us</p>
-                    <p>Work</p>
-                    <p>Latest News</p>
-                    <p>Carrers</p>
-                </div>
-                <div>
-                    <h1>Companey</h1>
-                    <p>About Us</p>
-                    <p>Work</p>
-                    <p>Latest News</p>
-                    <p>Carrers</p>
-                </div>
-                <div>
-                    <h1>Companey</h1>
-                    <p>About Us</p>
-                    <p>Work</p>
-                    <p>Latest News</p>
-                    <p>Carrers</p>
-                </div>
-                <div>
-                    <h1>Companey</h1>
-                    <p>About Us</p>
-                    <p>Work</p>
-                    <p>Latest News</p>
-                    <p>Carrers</p>
-                </div>
-
+                <nav>
+                    <header className="text-lg font-bold">Company</header>
+                    <a >About us</a> <br />
+                    <a>Contact</a> <br />
+                    <a >Jobs</a>
+                </nav>
+                <nav>
+                    <header className="text-lg font-bold">Product</header>
+                    <a >Prototype</a> <br />
+                    <a>Plans & Pricing</a> <br />
+                    <a >Customers</a> <br />
+                    <a>Integrations</a>
+                </nav>
+                <nav>
+                    <header className="text-lg font-bold">Support</header>
+                    <a >Help Desk</a> <br />
+                    <a >Become a Partner</a> <br />
+                    <a>Developers</a>
+                </nav>
+                <nav>
+                    <header className="text-lg font-bold">Contact</header>
+                    <a >Dhaka, Bangladesh</a> <br />
+                    <a >+0880296555487</a> <br />
+                    
+                </nav>
+                
             </div>
             <div className='bg-zinc-300'>
                 <hr />
